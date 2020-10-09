@@ -1,0 +1,15 @@
+.like-hart image {
+  width: 32rpx;
+  height: 28rpx;
+}
+.like-hart {
+  display: inline-flex;
+}
+.like-hart text {
+  position: relative;
+  top: -10rpx;
+  padding-left: 5rpx;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #bbbbbb;
+}

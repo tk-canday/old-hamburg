@@ -1,0 +1,13 @@
+<view class="page-classic" hover-class='page-hover'>
+  <view class="header">
+    <view class="left">
+      <v-date index="{{latestClassic.index}}"/>
+    </view>
+    <view class="right">
+      <v-like bind:LIKE="onLike" is-liked="{{latestClassic.like_status}}" like-num="{{latestClassic.fav_nums}}"/>
+      <image class="share" src="/images/share.png"></image>
+    </view>
+  </view>
+  <v-movie class="move" img="{{latestClassic.image}}" desc="{{latestClassic.content}}"/>
+  <v-navi class="nav" title="{{latestClassic.title}}"></v-navi>
+</view>

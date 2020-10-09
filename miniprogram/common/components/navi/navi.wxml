@@ -1,0 +1,5 @@
+<view class="container">
+  <image src="./images/上一个@2x.png"/>
+    <text>{{title}}</text>
+  <image src="./images/下一个@2x.png"/>
+</view>

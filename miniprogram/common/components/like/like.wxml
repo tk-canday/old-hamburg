@@ -1,0 +1,5 @@
+<view class="like-hart" bind:tap="onTap">
+  <image wx:if="{{isLiked}}" src="/images/喜欢icon@2x.png"/>
+  <image wx:if="{{!isLiked}}" src="/images/书单-详情-喜欢@2x.png"/>
+  <text>{{likeNum}}</text>
+</view>

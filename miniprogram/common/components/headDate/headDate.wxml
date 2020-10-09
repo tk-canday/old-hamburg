@@ -1,0 +1,2 @@
+<!--common/components/headDate/headDate.wxml-->
+<text>第{{preNum}}期{{date}}</text>

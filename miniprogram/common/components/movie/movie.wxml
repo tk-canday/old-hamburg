@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="banner">
+    <image src="{{img}}"></image>
+    <text>电影</text>
+  </view>
+  <text class="desc">{{desc}}</text>
+</view>
